@@ -29,6 +29,9 @@ app.get('/', (req, res) => res.send("Hello World"))
 
 // handle Error
 app.use(errorHandle)
+app.get('*', (req, res) => res.json({
+    message: "Page Not Found"
+}))
 
 const PORT = 5000;
 app.listen(PORT, () => {
