@@ -8,7 +8,9 @@ const Formet = require('./utils/dataFormet');
 const app = express();
 const cors = require('cors')
 
-dotenv.config({ path: './config/.env' })
+// dotenv.config({ path: './config/.env' })
+dotenv.config()
+
 
 // connect Database()
 connectDB();

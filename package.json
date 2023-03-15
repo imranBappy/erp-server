@@ -2,10 +2,10 @@
   "name": "server",
   "version": "1.0.0",
   "description": "Institute Management System",
-  "main": "server",
+  "main": "index",
   "scripts": {
-    "start": "node server",
-    "dev": "nodemon server",
+    "start": "node index",
+    "dev": "nodemon index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
